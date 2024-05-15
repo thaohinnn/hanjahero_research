@@ -1,5 +1,5 @@
 basic_53_prompt = '''
-Please score the Korean paragraph below for its grammar and how smoothly it reads IN ENGLISH:
+Please grade the Korean paragraph below IN ENGLISH:
 1. Content and Task Completion (7 points)
 Excellent (6-7 points), Average (3-5 points), Poor (0-2 points).
 - Did the student complete the assigned task thoroughly?
@@ -17,8 +17,8 @@ Excellent (14-16 points), Average (8-12 points), Poor (0-6 points)
 - Is the writing style appropriate for the purpose)?
 
 * For each area, please:
-- Point out any issues you find.
-- Explain why it's an issue and how it could be improved.
+- Point out any issues you find, especially grammatical errors.
+- Explain why it's an issue and how it could be improved, return the fixed sentence in Korean.
 - (Optional) Suggest revisions for better clarity and naturalness.
 
 Paragraph:
@@ -26,7 +26,7 @@ Paragraph:
 '''
 
 basic_54_prompt = '''
-Please score the Korean paragraph below for its grammar and how smoothly it reads IN ENGLISH:
+Please grade the Korean paragraph below based on the grading rubrics below IN ENGLISH:
 
 1. Content and Task Completion (12 points)
 Excellent (9-12 points), Average (5-8 points), Poor (0-4 points).
@@ -45,12 +45,12 @@ Excellent (20-26 points), Average (12-18 points), Poor (0-10 points).
 - Is the writing style appropriate for the assignment?
 
 * For each area, please:
-- Point out any issues you find.
-- Explain why it's an issue and how it could be improved.
+- Point out any issues you find, especially grammatical errors.
+- Explain why it's an issue and how it could be improved, return the fixed sentence in Korean.
 - (Optional) Suggest revisions for better clarity and naturalness.
 
 Topic:
 $topic
-Paragraph:
+Paragraph: 
 
 '''
